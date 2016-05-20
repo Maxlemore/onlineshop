@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Admiration_Pains;
+    src: url('font/Admiration_Pains.ttf');
+} 
+
+*{
+	font-family: 'Arial', sans-serif;
+	margin:	 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../images/wood.jpg");
+	}
+
+.logo{
+	font-family: Admiration_Pains;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.login{
+	float:right;
+}
+
+.center{
+	position:relative;
+}
+
+#search{
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#auswahl{
+    background-image: url("../images/wood.jpg");
+    background-repeat: repeat-x;
+	filter: saturate(50%);
+	/* Browser Specific */
+	-webkit-filter: saturate(50%);
+	-moz-filter: saturate(50%);
+	-o-filter: saturate(50%);
+	-ms-filter: saturate(50%);
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#registr{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.uebersicht{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.article-img {
+    display: block;
+    margin: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+    height: auto; 
+	width: auto;
+}	
+	
+.artikel{
+	display: block;
+	float: left;
+	height: 100%;
+	margin: 10px;
+	border-radius: 20px;
+	background-color: #fafafa;
+	padding: 10px;
+}
+
+div img{
+	max-height:95%;
+	max-width:95%;	
+}
+
+fieldset {
+	margin: 15px;
+	border-radius: 20px;
+	background-color: #fafafa;
+	Padding: 10px;
+}
+
+.inhalt{
+	margin-left: auto;
+    margin-right: auto;
+}	
+
+
+.footer{
+	color: #ffffff;
+    background-color: #222;
+	float: left;
+	bottom: 0px;
+	position:relative;
+	padding-bottom:20px;
+	padding-top:20px;
+	width: 100%;
+}
+.gap{
+	margin: auto;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 15px;
+}
+
+
+.col-lg-12{width:100%}
+.col-lg-11{width:91.66666667%}
+.col-lg-10{width:83.33333333%}
+.col-lg-9{width:75%}
+.col-lg-8{width:66.66666667%}
+.col-lg-7{width:58.33333333%}
+.col-lg-6{width:50%}
+.col-lg-5{width:41.66666667%}
+.col-lg-4{width:33.33333333%}
+.col-lg-3{width:25%}
+.col-lg-2{width:16.66666667%}
+.col-lg-1{width:8.33333333%}
+
+
+.form-group{
+	margin:15px;
+	}
+.container{
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:15px;
+	padding-right:15px
+	}
+.btn-primary{
+	color:#ffffff;
+	background-color:#008cba;
+	border-color:#0079a1
+}
+.btn{
+	cursor:not-allowed;
+	pointer-events:none;
+	opacity:0.65;
+	filter:alpha(opacity=65);
+	-webkit-box-shadow:none;
+	box-shadow:none
+	}
+.btn-default{
+	color:#333333;
+	background-color:#e7e7e7;
+	border-color:#cccccc
+	}
+.btn{
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid transparent;
+	padding:8px 12px;
+	font-size:15px;
+	line-height:1.4;
+	}
+	
+.form-control{
+	display:block;
+	width:100%;
+	height:39px;
+	padding:8px 12px;
+	font-size:15px;
+	line-height:1.4;
+	color:#6f6f6f;
+	background-color:#ffffff;
+	background-image:none;
+	border:1px solid #cccccc;
+	border-radius:0;}	
+	
+.form-horizontal {
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:20px;
+	}
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #fafafa;
+}
+
+	
+nav ul {
+	font-size: 18px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #222;
+	color: #ffffff;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a , li p{
+	color: #ffffff;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* tutorial from w3schools on how to do an responsive navigationbar*/
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	font-size: 18px;
+	color: #ffffff;
+    background-color: #222;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a, ul.topnav li p{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #111;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}	
+	
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
